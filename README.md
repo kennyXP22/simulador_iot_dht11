@@ -13,7 +13,8 @@ Em vez de utilizar hardware físico imediatamente, a lógica de programação, o
 ## ✨ Funcionalidades
 
 * **Simulação de Sensores:** Controles deslizantes (sliders) na interface web permitem alterar dinamicamente a temperatura e a umidade do "ambiente".
-* **Lógica Condicional (LEDs Virtuais):** * 🔵 **Azul:** Temperatura < 20°C (Ambiente Frio)
+* **Lógica Condicional (LEDs Virtuais):**
+  * 🔵 **Azul:** Temperatura < 20°C (Ambiente Frio)
   * 🟢 **Verde:** Temperatura agradável (Entre 20°C e o limite definido)
   * 🔴 **Vermelho:** Temperatura alta (Acima do limite)
 * **Atuador (Relé/Ventilador):** Acionamento automático de um "relé" (indicativo na tela) caso a temperatura ultrapasse o limite de segurança configurado pelo usuário.
@@ -37,6 +38,6 @@ cd simulador-iot-dht11
 3. Instale as depedencias necessarias:
 pip install streamlit
 
-Rodando a Aplicação
+## Rodando a Aplicação
 Para iniciar o servidor web do simulador, execute o seguinte comando no terminal:
 streamlit run simulador_iot.py
