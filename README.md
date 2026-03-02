@@ -29,5 +29,14 @@ Siga os passos abaixo para rodar a simulação na sua máquina local.
 ### Instalação
 
 1. Clone este repositório:
-```bash
-git clone [https://github.com/SEU-USUARIO/simulador-iot-dht11.git](https://github.com/SEU-USUARIO/simulador-iot-dht11.git)
+git clone [https://github.com/kennyXP22/simulador-iot-dht11.git](https://github.com/SEU-USUARIO/simulador-iot-dht11.git)
+
+2. Acesse a pasta do projeto:
+cd simulador-iot-dht11
+
+3. Instale as depedencias necessarias:
+pip install streamlit
+
+Rodando a Aplicação
+Para iniciar o servidor web do simulador, execute o seguinte comando no terminal:
+streamlit run simulador_iot.py
